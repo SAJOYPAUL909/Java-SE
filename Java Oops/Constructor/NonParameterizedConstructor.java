@@ -9,7 +9,7 @@ public class NonParameterizedConstructor
 
 public static void main(String[] args) 
 {
-    NonParameterizedConstructor obj = new NonParameterizedConstructor();
+    new NonParameterizedConstructor();
     
     System.out.println("This is main method ");
 }    
