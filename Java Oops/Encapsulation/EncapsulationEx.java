@@ -22,10 +22,7 @@ class Person
     {
         return age;
     }
-
-
 }
-
 
 public class EncapsulationEx 
 {
