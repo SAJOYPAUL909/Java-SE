@@ -7,6 +7,8 @@ class A
         this.obj = obj;
         obj.display();
     }
+    void m1()
+    {}
     
 }
 
@@ -17,6 +19,7 @@ public class ArgumentInConstructorCall
     ArgumentInConstructorCall()
     {
         A obj = new A(this);
+        obj.m1();
     }
 
     void display()
@@ -25,8 +28,13 @@ public class ArgumentInConstructorCall
 
     }
 
+    void m2 ()
+    {
+
+    }
     public static void main(String[] args) 
     {
         ArgumentInConstructorCall obj = new ArgumentInConstructorCall();
+        obj.m2();
     }    
 }
