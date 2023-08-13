@@ -24,6 +24,6 @@ public class Overloading1
 
         
         int add2 = a.sum(12, 23,6);
-        System.out.println("Sum of Two integer : "+add2);
+        System.out.println("Sum of Three integer : "+add2);
     }    
 }
