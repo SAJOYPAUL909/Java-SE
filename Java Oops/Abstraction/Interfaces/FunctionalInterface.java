@@ -8,8 +8,7 @@ public class FunctionalInterface
             {
                 System.out.println("Thread created ");
             }
-        }
-            
+        }   
         ).start();
 
         System.out.println("Functional Interface");
